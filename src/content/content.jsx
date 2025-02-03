@@ -41,7 +41,7 @@ import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Mendes e Prado Advocacia",
+  name: "Wellington Mendes & Yago Prado",
   email: "contato", // Email desejado pelo cliente
   domain: "mendeseprado.com.br", // Sem "www"
   phone: {
