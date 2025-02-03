@@ -92,7 +92,8 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADOS EM SALVADOR - BA E TERESINA - PI",
+      miniTag:
+        "ADVOGAMOS EM TODO BRASIL COM ESCRITÓRIO EM SALVADOR - BA E TERESINA - PI",
       title: (
         <h1 className="font-light mb-[16px]">
           Soluções jurídicas
@@ -333,8 +334,9 @@ const content = {
       subtitle: "Tradição e inovação a serviço da justiça e dos seus direitos.",
       paragraph: (
         <div>
-          Com uma história marcada por dedicação e compromisso, a Mendes e Prado
-          Advocacia se destaca como referência no cenário jurídico.
+          Com uma história marcada por dedicação e compromisso, Wellington
+          Mendes e Yago Prado Advocacia se destaca como referência no cenário
+          jurídico.
           <br />
           Fundada e liderada por Dr. Wellington Mendes e Dr. Yago Prado, pai e
           filho, a nossa advocacia combina a sabedoria da experiência com a
@@ -344,11 +346,14 @@ const content = {
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Com uma história marcada por dedicação e compromisso, a Mendes e Prado
-          Advocacia se destaca como referência no cenário jurídico. Fundada e
-          liderada por Dr. Wellington Mendes e Dr. Yago Prado, pai e filho, a
-          nossa advocacia combina a sabedoria da experiência com a energia da
-          inovação, criando uma parceria sólida e harmoniosa.
+          Com uma história marcada por dedicação e compromisso, Wellington
+          Mendes e Yago Prado Advocacia se destaca como referência no cenário
+          jurídico.
+          <br />
+          <br />
+          Fundada e liderada por Dr. Wellington Mendes e Dr. Yago Prado, pai e
+          filho, a nossa advocacia combina a sabedoria da experiência com a
+          energia da inovação, criando uma parceria sólida e harmoniosa.
           <br />
           <br />
           Ao longo dos anos, nos especializamos e construímos parcerias em
@@ -371,11 +376,11 @@ const content = {
           tratamos cada caso com a atenção e o cuidado que ele merece.
           <br />
           <br />
-          Na Mendes e Prado Advocacia, você encontrará uma equipe preparada para
-          enfrentar desafios e oferecer soluções práticas e estratégicas.
-          Estamos aqui para ser mais do que advogados; queremos ser seus
-          parceiros na busca pela justiça e na proteção dos seus direitos e
-          interesses.
+          No Wellington Mendes e Yago Prado Advocacia, você encontrará uma
+          equipe preparada para enfrentar desafios e oferecer soluções práticas
+          e estratégicas. Estamos aqui para ser mais do que advogados; queremos
+          ser seus parceiros na busca pela justiça e na proteção dos seus
+          direitos e interesses.
           <br />
           <br />
         </p>
