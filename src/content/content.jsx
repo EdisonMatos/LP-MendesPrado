@@ -329,14 +329,17 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É A MENDES E PRADO ADVOCACIA",
+      miniTag:
+        "QUEM É WELLINGTON MENDES & YAGO PRADO - ADVOCACIA E CONSULTORIA JURÍDICA",
       title: "Nossa trajetória",
       subtitle: "Tradição e inovação a serviço da justiça e dos seus direitos.",
       paragraph: (
         <div>
-          Com uma história marcada por dedicação e compromisso, Wellington
-          Mendes e Yago Prado Advocacia se destaca como referência no cenário
-          jurídico.
+          Com uma história marcada por dedicação e compromisso,{" "}
+          <i>
+            Wellington Mendes & Yago Prado - Advocacia e Consultoria Jurídica
+          </i>{" "}
+          se destaca como referência no cenário jurídico.
           <br />
           Fundada e liderada por Dr. Wellington Mendes e Dr. Yago Prado, pai e
           filho, a nossa advocacia combina a sabedoria da experiência com a
@@ -346,9 +349,11 @@ const content = {
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Com uma história marcada por dedicação e compromisso, Wellington
-          Mendes e Yago Prado Advocacia se destaca como referência no cenário
-          jurídico.
+          Com uma história marcada por dedicação e compromisso,{" "}
+          <i>
+            Wellington Mendes & Yago Prado - Advocacia e Consultoria Jurídica
+          </i>{" "}
+          se destaca como referência no cenário jurídico.
           <br />
           <br />
           Fundada e liderada por Dr. Wellington Mendes e Dr. Yago Prado, pai e
@@ -376,11 +381,14 @@ const content = {
           tratamos cada caso com a atenção e o cuidado que ele merece.
           <br />
           <br />
-          No Wellington Mendes e Yago Prado Advocacia, você encontrará uma
-          equipe preparada para enfrentar desafios e oferecer soluções práticas
-          e estratégicas. Estamos aqui para ser mais do que advogados; queremos
-          ser seus parceiros na busca pela justiça e na proteção dos seus
-          direitos e interesses.
+          No{" "}
+          <i>
+            Wellington Mendes & Yago Prado - Advocacia e Consultoria Jurídica
+          </i>
+          , você encontrará uma equipe preparada para enfrentar desafios e
+          oferecer soluções práticas e estratégicas. Estamos aqui para ser mais
+          do que advogados; queremos ser seus parceiros na busca pela justiça e
+          na proteção dos seus direitos e interesses.
           <br />
           <br />
         </p>
