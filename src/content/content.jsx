@@ -341,9 +341,10 @@ const content = {
           </i>{" "}
           se destaca como referência no cenário jurídico.
           <br />
-          Fundada e liderada por Dr. Wellington Mendes e Dr. Yago Prado, pai e
-          filho, a nossa advocacia combina a sabedoria da experiência com a
-          energia da inovação, criando uma parceria sólida e harmoniosa.
+          Fundado e liderado por <i>Dr. Wellington Mendes e Dr. Yago Prado</i>,
+          pai e filho, nosso escritório e nossa advocacia combinam a sabedoria
+          da experiência com a energia da inovação, criando uma parceria sólida
+          e harmoniosa.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
@@ -356,17 +357,21 @@ const content = {
           se destaca como referência no cenário jurídico.
           <br />
           <br />
-          Fundada e liderada por Dr. Wellington Mendes e Dr. Yago Prado, pai e
-          filho, a nossa advocacia combina a sabedoria da experiência com a
-          energia da inovação, criando uma parceria sólida e harmoniosa.
+          Fundado e liderado por <i>Dr. Wellington Mendes e Dr. Yago Prado</i>,
+          pai e filho, nosso escritório e nossa advocacia combinam a sabedoria
+          da experiência com a energia da inovação, criando uma parceria sólida
+          e harmoniosa.
           <br />
           <br />
           Ao longo dos anos, nos especializamos e construímos parcerias em
           diversas áreas do direito, incluindo Constitucional, Administrativo,
           Médico, Cível, do Consumidor, do Trabalho, Previdenciário e
-          Tributário. Nosso objetivo é oferecer soluções jurídicas sob medida,
-          adaptadas às necessidades específicas de cada cliente, seja ele pessoa
-          física ou jurídica.
+          Tributário.
+          <br />
+          <br />
+          Nosso objetivo é oferecer soluções jurídicas sob medida, adaptadas às
+          necessidades específicas de cada cliente, seja ele pessoa física ou
+          jurídica.
           <br />
           <br />
           Acreditamos que um relacionamento próximo e de confiança com nossos
@@ -387,8 +392,8 @@ const content = {
           </i>
           , você encontrará uma equipe preparada para enfrentar desafios e
           oferecer soluções práticas e estratégicas. Estamos aqui para ser mais
-          do que advogados; queremos ser seus parceiros na busca pela justiça e
-          na proteção dos seus direitos e interesses.
+          do que seus advogados, queremos ser seus parceiros na busca pela
+          justiça e na proteção dos seus direitos e interesses.
           <br />
           <br />
         </p>
