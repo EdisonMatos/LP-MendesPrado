@@ -44,9 +44,26 @@ export default function FormAndLocation() {
           />
           <WhatsappForm />
         </MotionDivDownToUp> */}
+        <MotionDivDownToUp className="flex-col w-full desktop1:w-[415px] desktop2:w-[485px] flex justify-center items-center ">
+          <SectionHeader
+            className="text-center desktop1:flex desktop1:w-full"
+            miniTitle={content.texts.register.miniTag}
+            sectionHeaderTitle={content.texts.register.title}
+            sectionHeaderSubtitle={content.texts.register.subtitle}
+            color=""
+            type=""
+          />
+          <Button
+            aria-label={content.texts.register.altButtonCta}
+            label={content.texts.register.ctaButtonText}
+            buttonLink="https://docs.google.com/forms/d/e/1FAIpQLScGiTvmt_9B5anoUvhmCpvg-1NUOoknzMKmjNOCVHvlx-kr1w/viewform"
+            animation
+          />
+        </MotionDivDownToUp>
+
         {/* //centralizar textos dos dois sectionheaders */}
 
-        <MotionDivDownToUp className="w-full flex-col desktop1:w-[415px] desktop2:w-[485px] flex justify-center">
+        <MotionDivDownToUp className="w-full flex-col pt-[48px] desktop1:pt-0 desktop1:w-[415px] desktop2:w-[485px] flex justify-center">
           <SectionHeader
             className="text-center desktop1:flex desktop1:w-full"
             miniTitle={content.texts.map.miniTag}

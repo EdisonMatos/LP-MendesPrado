@@ -436,7 +436,7 @@ const content = {
       miniTag: "ATENDIMENTO ONLINE",
       title: "Facilite seu atendimento jurídico",
       subtitle:
-        "Preencha o formulário e nos informe os dados iniciais para que possamos entender melhor sua situação.Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
+        "Preencha o formulário e nos informe os dados iniciais para que possamos entender melhor sua situação.",
       ctaButtonText: "Preencher formulário",
       altButtonCta: "Formulário externo",
     },
