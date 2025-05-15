@@ -438,7 +438,13 @@ const content = {
       subtitle:
         "Preencha o formulário e nos informe os dados iniciais para que possamos entender melhor sua situação.Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
       ctaButtonText: "Preencher formulário",
-      altButtonCta: "Formulário externo"
+      altButtonCta: "Formulário externo",
+    },
+    map: {
+      miniTag: "LOCALIZAÇÃO",
+      title: "Encontre-nos em Teresina",
+      subtitle:
+        "Visite nosso endereço e confira no mapa abaixo como chegar facilmente.",
     },
     steps: {
       miniTag: "PASSO A PASSO",
