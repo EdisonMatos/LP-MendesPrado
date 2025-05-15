@@ -60,6 +60,20 @@ export default function FooterSocial({
                   </a>
                 </div>
               </MotionDivDownToUp>
+
+              <MotionDivDownToUp>
+                <div className="flex full gap-x-[12px] items-center opacity-90">
+                  <FaWhatsapp size={24} color={LightMode ? "black" : "white"} />
+
+                  <a
+                    href={whatsappContactLink}
+                    target="_blank"
+                    className="hover:underline"
+                  >
+                    {content.texts.infos.phoneSecond}
+                  </a>
+                </div>
+              </MotionDivDownToUp>
               <MotionDivDownToUp>
                 <div className="flex full gap-x-[12px] items-center opacity-90">
                   <Mail />

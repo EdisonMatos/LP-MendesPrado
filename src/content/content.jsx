@@ -46,8 +46,13 @@ export const infos = {
   domain: "mendeseprado.com.br", // Sem "www"
   phone: {
     ddd: "71",
-    firstPart: "98332", // Apenas os 5 primeiros números (incluindo o 9)
+    firstPart: "9 8332", // Apenas os 5 primeiros números (incluindo o 9)
     secondPart: "0063", // Apenas os 4 últimos números
+  },
+  phoneSecond: {
+    ddd: "86",
+    firstPart: "3231", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "1133", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
@@ -827,11 +832,13 @@ const content = {
     links: {
       instagram: `https://www.instagram.com/${infos.instagramProfile}/`,
       ctaWhatsapp: `https://wa.me/+55${infos.phone.ddd}${infos.phone.firstPart}${infos.phone.secondPart}?text=${infos.whatsappDefaultMessage}`,
+      ctaWhatsapp: `https://wa.me/+55${infos.phoneSecond.ddd}${infos.phoneSecond.firstPart}${infos.phoneSecond.secondPart}?text=${infos.whatsappDefaultMessage}`,
       facebook: `https://www.facebook.com/${infos.facebookProfile}`,
       x: `https://x.com/${infos.x}`,
     },
     infos: {
       phone: `(${infos.phone.ddd}) ${infos.phone.firstPart}-${infos.phone.secondPart}`,
+      phoneSecond: `(${infos.phoneSecond.ddd}) ${infos.phoneSecond.firstPart}-${infos.phoneSecond.secondPart}`,
       email: `${infos.email}@${infos.domain}`,
       adress: infos.endereco,
       officeHours: infos.expediente,
