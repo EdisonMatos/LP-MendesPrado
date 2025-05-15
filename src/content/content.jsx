@@ -57,9 +57,9 @@ export const infos = {
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
+      <p>Rua Oscar Gil Castelo Branco, nº 2977, Sala 202</p>
+      <p>São Cristóvão, Teresinha - PI</p>
+      <p>CEP 64055-020</p>
     </div>
   ),
   expediente: (
