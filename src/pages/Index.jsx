@@ -54,6 +54,7 @@ export default function Index() {
       /> */}
       <AboutInstagramBgImg />
       <Cta />
+      <FormAndLocation/>
       <Steps />
       {/* <Maps /> */}
       <Faq />

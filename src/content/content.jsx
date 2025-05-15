@@ -432,6 +432,14 @@ const content = {
         "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
       ctaButtonText: "Entre em contato pelo WhatsApp",
     },
+    register: {
+      miniTag: "ATENDIMENTO ONLINE",
+      title: "Facilite seu atendimento jurídico",
+      subtitle:
+        "Preencha o formulário e nos informe os dados iniciais para que possamos entender melhor sua situação.Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
+      ctaButtonText: "Preencher formulário",
+      altButtonCta: "Formulário externo"
+    },
     steps: {
       miniTag: "PASSO A PASSO",
       title: "Como funciona nosso atendimento?",

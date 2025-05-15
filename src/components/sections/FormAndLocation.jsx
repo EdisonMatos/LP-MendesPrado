@@ -22,7 +22,7 @@ export default function Steps() {
   const [modalTitle, setModalTitle] = useState("");
 
   return (
-    <SectionArea className="bg-bgSectionDark " paddingtop={false}>
+    <SectionArea className="bg-bgSectionDark" paddingbot={false}>
       {/* <SectionHeader
         className="text-center"
         miniTitle={content.texts.features.miniTag}
@@ -35,50 +35,20 @@ export default function Steps() {
         <MotionDivDownToUp className="flex-col w-full desktop1:w-[415px] desktop2:w-[485px] flex justify-center items-center ">
           <SectionHeader
             className="text-center desktop1:flex desktop1:w-full"
-            // miniTitle={content.texts.formandlocation.miniTag}
-            sectionHeaderTitle={content.texts.contactForm.title}
-            sectionHeaderSubtitle={content.texts.contactForm.subtitle}
+            miniTitle={content.texts.register.miniTag}
+            sectionHeaderTitle={content.texts.register.title}
+            sectionHeaderSubtitle={content.texts.register.subtitle}
             color=""
             type=""
-            miniTitleBgColor={false}
           />
-          <WhatsappForm />
         </MotionDivDownToUp>
-        {/* //centralizar textos dos dois sectionheaders */}
 
-        <MotionDivDownToUp className="w-full flex-col desktop1:w-[415px] desktop2:w-[485px] flex justify-center">
-          <SectionHeader
-            className="text-center desktop1:flex desktop1:w-full"
-            // miniTitle={content.texts.formandlocation.miniTag}
-            sectionHeaderTitle={content.texts.maps.title}
-            sectionHeaderSubtitle={content.texts.maps.subtitle}
-            color=""
-            type=""
-            miniTitleBgColor={false}
-          />
-          <div className="relative w-full h-auto bg-no-repeat bg-cover shadow-custom-opacity shadow-darker/25 desktop1:bg-center tablet1:w-full rounded-xl">
-            {/* <p className="font-bold mt-[32px] mb-[16px]">
-              Nos encontre no Google Maps
-            </p> */}
-            <div className="opacity-90">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31496.286939401998!2d-49.4966658!3d-16.6489271!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935e67f49e245171%3A0xe8acb6a48ae5cc5e!2sM%C3%A1rcio%20Assis%20Advogados!5e1!3m2!1spt-BR!2sbr!4v1733161783119!5m2!1spt-BR!2sbr"
-                width="100%"
-                height=""
-                style={{ border: 0 }}
-                allowFullScreen=""
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                className="rounded-[10px] h-[350px] desktop1:h-[420px]"
-              />
-            </div>
-            {/* <img
-              alt="Imagem de efeito pontilhado"
-              src={imgPoints}
-              className="absolute opacity-30 right-[-10px] top-[20px] desktop1:right-[-40px] desktop1:top-[40px]"
-            ></img> */}
-          </div>
-        </MotionDivDownToUp>
+        <Button
+          aria-label={content.texts.register.altButtonCta}
+          label={content.texts.register.ctaButtonText}
+          buttonLink="https://docs.google.com/forms/d/e/1FAIpQLScGiTvmt_9B5anoUvhmCpvg-1NUOoknzMKmjNOCVHvlx-kr1w/viewform"
+          animation
+        />
       </SectionWrapper>
     </SectionArea>
   );
