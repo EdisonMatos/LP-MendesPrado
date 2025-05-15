@@ -16,13 +16,13 @@ import HowItWorksCard from "../cards/HowItWorksCard";
 import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
 import WhatsappForm from "../interactives/WhatsappForm";
 
-export default function Steps() {
+export default function FormAndLocation() {
   const [visible, setVisible] = useState(false);
   const [modalContent, setModalContent] = useState("");
   const [modalTitle, setModalTitle] = useState("");
 
   return (
-    <SectionArea className="bg-bgSectionDark " paddingtop={false}>
+    <SectionArea className="bg-bgSectionDark">
       {/* <SectionHeader
         className="text-center"
         miniTitle={content.texts.features.miniTag}
@@ -32,29 +32,45 @@ export default function Steps() {
       /> */}
       {/* <SectionShapeDiv shapeDivArrow shapeColor="text-white"/> */}
       <SectionWrapper className="flex flex-col desktop1:flex-row-reverse gap-[40px] desktop2:gap-0 desktop1:justify-between desktop1:items-start">
-        <MotionDivDownToUp className="flex-col w-full desktop1:w-[415px] desktop2:w-[485px] flex justify-center items-center ">
+        {/* <MotionDivDownToUp className="flex-col w-full desktop1:w-[415px] desktop2:w-[485px] flex justify-center items-center ">
           <SectionHeader
             className="text-center desktop1:flex desktop1:w-full"
             // miniTitle={content.texts.formandlocation.miniTag}
-            sectionHeaderTitle={content.texts.contactForm.title}
-            sectionHeaderSubtitle={content.texts.contactForm.subtitle}
+            sectionHeaderTitle="Title"
+            sectionHeaderSubtitle="Subtitle"
             color=""
             type=""
             miniTitleBgColor={false}
           />
           <WhatsappForm />
-        </MotionDivDownToUp>
-        {/* //centralizar textos dos dois sectionheaders */}
-
-        <MotionDivDownToUp className="w-full flex-col desktop1:w-[415px] desktop2:w-[485px] flex justify-center">
+        </MotionDivDownToUp> */}
+        <MotionDivDownToUp className="flex-col w-full desktop1:w-[415px] desktop2:w-[485px] flex justify-center items-center ">
           <SectionHeader
             className="text-center desktop1:flex desktop1:w-full"
-            // miniTitle={content.texts.formandlocation.miniTag}
-            sectionHeaderTitle={content.texts.maps.title}
-            sectionHeaderSubtitle={content.texts.maps.subtitle}
+            miniTitle={content.texts.register.miniTag}
+            sectionHeaderTitle={content.texts.register.title}
+            sectionHeaderSubtitle={content.texts.register.subtitle}
             color=""
             type=""
-            miniTitleBgColor={false}
+          />
+          <Button
+            aria-label={content.texts.register.altButtonCta}
+            label={content.texts.register.ctaButtonText}
+            buttonLink="https://docs.google.com/forms/d/e/1FAIpQLScGiTvmt_9B5anoUvhmCpvg-1NUOoknzMKmjNOCVHvlx-kr1w/viewform"
+            animation
+          />
+        </MotionDivDownToUp>
+
+        {/* //centralizar textos dos dois sectionheaders */}
+
+        <MotionDivDownToUp className="w-full flex-col pt-[48px] desktop1:pt-0 desktop1:w-[415px] desktop2:w-[485px] flex justify-center">
+          <SectionHeader
+            className="text-center desktop1:flex desktop1:w-full"
+            miniTitle={content.texts.map.miniTag}
+            sectionHeaderTitle={content.texts.map.title}
+            sectionHeaderSubtitle={content.texts.map.subtitle}
+            color=""
+            type=""
           />
           <div className="relative w-full h-auto bg-no-repeat bg-cover shadow-custom-opacity shadow-darker/25 desktop1:bg-center tablet1:w-full rounded-xl">
             {/* <p className="font-bold mt-[32px] mb-[16px]">
@@ -62,7 +78,7 @@ export default function Steps() {
             </p> */}
             <div className="opacity-90">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31496.286939401998!2d-49.4966658!3d-16.6489271!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935e67f49e245171%3A0xe8acb6a48ae5cc5e!2sM%C3%A1rcio%20Assis%20Advogados!5e1!3m2!1spt-BR!2sbr!4v1733161783119!5m2!1spt-BR!2sbr"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3974.1441314300973!2d-42.7712707!3d-5.0803764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x78e3a1157a38e3f%3A0x55ef44dd0d86d1e!2sRua%20Oscar%20Gil%20Castelo%20Branco%2C%202977%20-%20S%C3%A3o%20Crist%C3%B3v%C3%A3o%2C%20Teresina%20-%20PI%2C%2064055-020!5e0!3m2!1spt-BR!2sbr!4v1747310462592!5m2!1spt-BR!2sbr"
                 width="100%"
                 height=""
                 style={{ border: 0 }}

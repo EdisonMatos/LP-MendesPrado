@@ -46,15 +46,20 @@ export const infos = {
   domain: "mendeseprado.com.br", // Sem "www"
   phone: {
     ddd: "71",
-    firstPart: "98332", // Apenas os 5 primeiros números (incluindo o 9)
+    firstPart: "9 8332", // Apenas os 5 primeiros números (incluindo o 9)
     secondPart: "0063", // Apenas os 4 últimos números
+  },
+  phoneSecond: {
+    ddd: "86",
+    firstPart: "3231", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "1133", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
+      <p>Rua Oscar Gil Castelo Branco, nº 2977, Sala 202</p>
+      <p>São Cristóvão, Teresinha - PI</p>
+      <p>CEP 64055-020</p>
     </div>
   ),
   expediente: (
@@ -426,6 +431,20 @@ const content = {
       subtitle:
         "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
       ctaButtonText: "Entre em contato pelo WhatsApp",
+    },
+    register: {
+      miniTag: "ATENDIMENTO ONLINE",
+      title: "Facilite seu atendimento jurídico",
+      subtitle:
+        "Preencha o formulário e nos informe os dados iniciais para que possamos entender melhor sua situação.",
+      ctaButtonText: "Preencher formulário",
+      altButtonCta: "Formulário externo",
+    },
+    map: {
+      miniTag: "LOCALIZAÇÃO",
+      title: "Encontre-nos em Teresina",
+      subtitle:
+        "Visite nosso endereço e confira no mapa abaixo como chegar facilmente.",
     },
     steps: {
       miniTag: "PASSO A PASSO",
@@ -827,11 +846,13 @@ const content = {
     links: {
       instagram: `https://www.instagram.com/${infos.instagramProfile}/`,
       ctaWhatsapp: `https://wa.me/+55${infos.phone.ddd}${infos.phone.firstPart}${infos.phone.secondPart}?text=${infos.whatsappDefaultMessage}`,
+      ctaWhatsapp: `https://wa.me/+55${infos.phoneSecond.ddd}${infos.phoneSecond.firstPart}${infos.phoneSecond.secondPart}?text=${infos.whatsappDefaultMessage}`,
       facebook: `https://www.facebook.com/${infos.facebookProfile}`,
       x: `https://x.com/${infos.x}`,
     },
     infos: {
       phone: `(${infos.phone.ddd}) ${infos.phone.firstPart}-${infos.phone.secondPart}`,
+      phoneSecond: `(${infos.phoneSecond.ddd}) ${infos.phoneSecond.firstPart}-${infos.phoneSecond.secondPart}`,
       email: `${infos.email}@${infos.domain}`,
       adress: infos.endereco,
       officeHours: infos.expediente,

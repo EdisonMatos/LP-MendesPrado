@@ -19,6 +19,7 @@ import FloatingWhatsChat from "../components/interactives/FloatingWhatsChat";
 import FeaturesExtended from "../components/sections/FeaturesExtended";
 import AboutInstagramBgImg from "../components/sections/AboutInstagramBgImg";
 import Maps from "../components/sections/Maps";
+import Register from "../components/sections/Register";
 
 // Para ativar o modal na Sessão Feature, copiar e colar: modal={true} e remover para desativar.
 // Para ativar o modal na Sessão About, copiar e colar: modal={true} e remover para desativar.
@@ -54,12 +55,13 @@ export default function Index() {
       /> */}
       <AboutInstagramBgImg />
       <Cta />
+      {/* <Register /> */}
       <Steps />
-      {/* <Maps /> */}
+      <FormAndLocation />
       <Faq />
       <FooterSocial
         obs={false}
-        addres={false}
+        addres={true}
         instagram={true}
         facebook={false}
         linkedin={false}
