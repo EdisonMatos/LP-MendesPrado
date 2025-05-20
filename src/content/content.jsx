@@ -434,10 +434,10 @@ const content = {
     },
     register: {
       miniTag: "ATENDIMENTO ONLINE",
-      title: "Facilite seu atendimento jurídico",
+      title: "Dê o primeiro passo para resolver sua questão jurídica",
       subtitle:
         "Preencha o formulário e nos informe os dados iniciais para que possamos entender melhor sua situação.",
-      ctaButtonText: "Preencher formulário",
+      ctaButtonText: "Facilite seu atendimento jurídico",
       altButtonCta: "Formulário externo",
     },
     map: {
