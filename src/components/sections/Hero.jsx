@@ -9,6 +9,7 @@ import SectionArea from "../sectionElements/SectionArea";
 import imgPoints from "../../assets/imgs/about/points.png";
 import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
 import { FaWhatsapp } from "react-icons/fa";
+import { Pen } from "lucide-react";
 
 const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
@@ -44,16 +45,28 @@ export default function Hero() {
                 </div>
               </MotionDivDownToUp>
               <div className="w-full phone2:w-full tablet2:w-auto">
-                <div className="flex justify-center w-full desktop1:justify-start mb-[32px]">
+                <div className="flex flex-col desktop1:flex-row items-center gap-6 justify-center w-full desktop1:justify-start mb-[32px]">
                   <Button
                     aria-label={content.texts.hero.ctaButtonAriaLabel}
                     label={content.texts.hero.ctaButtonText}
                     buttonLink={whatsappContactLink}
                     animation
-                    className="w-[100%]"
+                    className="w-auto shadow-lg shadow-black"
+                    size="small"
                     icon={<FaWhatsapp size={24} />}
                   />
+                  <Button
+                    className="shadow-lg shadow-black"
+                    color="bg-bgSectionDark border text-white"
+                    size="small"
+                    aria-label={content.texts.register.altButtonCta}
+                    label={content.texts.register.ctaButtonText}
+                    buttonLink="https://docs.google.com/forms/d/e/1FAIpQLScGiTvmt_9B5anoUvhmCpvg-1NUOoknzMKmjNOCVHvlx-kr1w/viewform"
+                    animation
+                    icon={<Pen size={24} />}
+                  />
                 </div>
+
                 <MotionDivDownToUp>
                   <div className="flex justify-center desktop1:justify-start">
                     <div className="flex items-center text-primary">
