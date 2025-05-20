@@ -63,7 +63,7 @@ export default function FooterSocial({
 
               <MotionDivDownToUp>
                 <div className="flex full gap-x-[12px] items-center opacity-90">
-                  <FaWhatsapp size={24} color={LightMode ? "black" : "white"} />
+                  <Phone size={24} color={LightMode ? "black" : "white"} />
 
                   <a
                     href={whatsappContactLink}
