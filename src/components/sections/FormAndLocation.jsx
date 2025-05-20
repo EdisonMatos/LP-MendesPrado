@@ -15,6 +15,7 @@ import imgPoints from "../../assets/imgs/about/points.png";
 import HowItWorksCard from "../cards/HowItWorksCard";
 import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
 import WhatsappForm from "../interactives/WhatsappForm";
+import { Pen } from "lucide-react";
 
 export default function FormAndLocation() {
   const [visible, setVisible] = useState(false);
@@ -54,10 +55,14 @@ export default function FormAndLocation() {
             type=""
           />
           <Button
+            className="shadow-lg shadow-black"
+            color="bg-bgSectionDark border text-white"
+            size="small"
             aria-label={content.texts.register.altButtonCta}
             label={content.texts.register.ctaButtonText}
             buttonLink="https://docs.google.com/forms/d/e/1FAIpQLScGiTvmt_9B5anoUvhmCpvg-1NUOoknzMKmjNOCVHvlx-kr1w/viewform"
             animation
+            icon={<Pen size={24} />}
           />
         </MotionDivDownToUp>
 
