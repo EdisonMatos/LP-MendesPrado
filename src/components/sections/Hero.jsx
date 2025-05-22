@@ -45,14 +45,13 @@ export default function Hero() {
                 </div>
               </MotionDivDownToUp>
               <div className="w-full phone2:w-full tablet2:w-auto">
-                <div className="flex flex-col desktop1:flex-row items-center gap-6 justify-center w-full desktop1:justify-start mb-[32px]">
+                <div className="flex flex-col gap-6 items-center desktop1:items-start w-full justify-start mb-[32px]">
                   <Button
                     aria-label={content.texts.hero.ctaButtonAriaLabel}
                     label={content.texts.hero.ctaButtonText}
                     buttonLink={whatsappContactLink}
                     animation
                     className="w-auto shadow-lg shadow-black"
-                    size="small"
                     icon={<FaWhatsapp size={24} />}
                   />
                   <Button
